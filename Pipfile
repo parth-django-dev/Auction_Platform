@@ -11,6 +11,7 @@ channels-redis = "*"
 celery = "*"
 redis = "*"
 django-environ = "*"
+daphne = "*"
 
 [dev-packages]
 
