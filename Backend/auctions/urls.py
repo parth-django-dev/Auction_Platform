@@ -10,7 +10,11 @@ urlpatterns = [
     path('register/', views.register_user, name='register_user'),
     path('login/', views.login_user, name='login_user'),
     path('logout/', views.logout_user, name='logout_user'),
-    path('csrf-token/', views.get_csrf_token, name='get_csrf_token')
+    path('user/', views.get_current_user, name='get_current_user'),
+    path('csrf-token/', views.get_csrf_token, name='get_csrf_token'),
+    path('my-bids/', views.my_bids, name='my_bids'),
+    path('my-listings/', views.my_listings, name='my_listings'),
+    path('create-auction/', views.create_auction, name='create_auction'),
 ]
 
 if settings.DEBUG:

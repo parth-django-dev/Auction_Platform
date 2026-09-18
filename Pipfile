@@ -9,9 +9,9 @@ psycopg2-binary = "*"
 channels = "*"
 channels-redis = "*"
 celery = "*"
-redis = "*"
 django-environ = "*"
 daphne = "*"
+redis = "*"
 
 [dev-packages]
 
